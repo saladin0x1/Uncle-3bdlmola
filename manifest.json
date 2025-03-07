@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name":  "Ai usage reducer",
+  "version": "1.0",
+  "description": "Popup on chatgpt.com with a question and two options.",
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://aistudio.google.com/*",
+    "https://chat.deepseek.com/*",
+    "https://claude.ai/*",
+    "https://chat.qwen.ai/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://aistudio.google.com/*",
+        "https://chat.deepseek.com/*",
+        "https://claude.ai/*",
+        "https://chat.qwen.ai/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
