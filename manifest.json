@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name":  "Ai usage reducer",
-  "version": "1.0",
-  "description": "Popup on chatgpt.com with a question and two options.",
+  "name":  "uncle-3bdlmola",
+  "version": "0.0.1",
+  "description": "uncle-3bdlmola he will help you become a better person",
   "permissions": [
     "storage",
     "declarativeContent",

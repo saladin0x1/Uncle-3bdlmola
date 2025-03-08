@@ -1,4 +1,5 @@
 console.log("i stole this from a guy on github and here am i tweaking it for further ai's");
+console.log("whoami.saladin0x1.ru")
 
 // Styles object for better organization and reuse
 const styles = {
