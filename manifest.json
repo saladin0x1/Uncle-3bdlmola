@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name":  "uncle-3bdlmola",
   "version": "0.0.1",
-  "description": "uncle-3bdlmola he will help you become a better person",
+  "description": "uncle-3bdlmola will help you become a better person",
   "permissions": [
     "storage",
     "declarativeContent",
